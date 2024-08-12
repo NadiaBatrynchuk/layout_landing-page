@@ -1,0 +1,36 @@
+.header {
+  box-sizing: border-box;
+  padding: 24px 20px;
+  height: 100vh;
+  background-image: url(../images/header-bg-mobile.png);
+  background-size: cover;
+  background-position: center;
+
+  &__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__icons {
+    display: flex;
+    gap: 24px;
+  }
+  .icon {
+    display: block;
+    height: 24px;
+    aspect-ratio: 1;
+
+    &--phone {
+      background-image: url(/images/icons/icon-phone.png);
+    }
+
+    &--menu {
+      background-image: url(/images/icons/icon-burger-menu.png);
+    }
+
+    &--close {
+      background-image: url(/images/icons/icon-close.png);
+    }
+  }
+}
